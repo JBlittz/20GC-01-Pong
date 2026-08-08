@@ -6,6 +6,7 @@ public class Paddle : MonoBehaviour
 {
     [SerializeField]
     private InputActionReference inputActionReference;
+
     private InputAction move;
     private float speed = 0.01f;
 
